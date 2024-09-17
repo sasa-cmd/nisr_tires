@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.arrow-left{
+    color: rgb(25, 169, 25);
+    position: absolute; 
+    top: 40px;
+    left: 50px;
+           
+}
+.container {
+    text-align: center; 
+}
+
+.container p {
+    color: rgb(25, 169, 25);
+    display: inline-block;
+    position: relative; 
+    font-size: 24px; 
+    padding-bottom: 25px;
+}
+
+.container p::after {
+    content: ''; 
+    position: absolute; 
+    left: 50%; 
+    bottom: 0;
+    transform: translateX(-50%); 
+    width: 120%; 
+    height: 5px; 
+    background-color: rgb(25, 169, 25);
+    border-radius: 10px;
+}
+
+.Special{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.offer p{
+    margin-top: 90px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.offer .offer_img{
+    width: 60%;
+    padding-left: 300px;
+    
+}
+.circular-line {
+    margin-top: 70px;
+    margin-left:31%;
+    width:600px ;
+    height: 7px;
+    background-color:rgb(25, 169, 25) ;
+    border-radius: 10px;
+}
+
